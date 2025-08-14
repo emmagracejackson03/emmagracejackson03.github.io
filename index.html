@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma's Interior Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-s2/1v96Q1rg3UIKj3qFAhN1w4L4GV7D3R/ODh3EuZg85D021DIL5o93r3s9D2v2Hj2Tj53yL41G1/1P2a1/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container position-relative">
+            <div class="navbar-brand position-absolute top-50 start-50 translate-middle" style="font-size: 2.2rem; font-weight: bold; text-decoration: none; color: black; z-index: 2;">
+                <a href="index.html" style="color: inherit; text-decoration: none;">EMMA GRACE JACKSON</a>
+            </div>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html#contact-info">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Heading Image -->
+    <section class="heading-image" id="hero-section">
+        <img src="assets/images/Heading_image.jpg" class="img-fluid" alt="Responsive image">
+        <div class="hero-text" id="hero-text">
+            <h1>Emma Grace Jackson</h1>
+            <h2>Revit-Certified Interior Designer</h2>
+            <p class="hero-tagline">Ready to contribute technical expertise and creative vision to your design team</p>
+        </div>
+    </section>
+
+    <!-- Employment Status Banner -->
+    <section class="employment-banner py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="employment-card text-center">
+                        <div class="row align-items-center">
+                            <div class="col-md-8">
+                                <h4 class="employment-title">Seeking Full-Time Interior Design Position</h4>
+                                <p class="employment-details">Weber State University Graduate • Revit Certified • Working Toward NCIDQ • Available Immediately</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="employment-actions">
+                                    <a href="assets/images/Resume.pdf" class="btn btn-primary me-2" target="_blank">
+                                        <i class="bi bi-download"></i> Download Resume
+                                    </a>
+                                    <a href="about.html#contact-info" class="btn btn-outline-primary">
+                                        <i class="bi bi-envelope"></i> Contact Me
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Introduction -->
+    <main>
+        <!-- Project Collage -->
+        <section id="projects" class="project-grid py-5">
+            <div class="container-fluid px-lg-5"> <!-- You can change this to "container" for a more centered, narrower look, or "container-xl" for a wider but not full-width layout -->
+                <!-- Divider -->
+                <div class="row">
+                    <div class="col-12 text-center py-4">
+                        <h3 class="section-heading">Projects</h3>
+                        <hr class="mx-auto">
+                    </div>
+                </div>
+                <!-- First Row -->
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="project-pages/lighting.html" class="project-item">
+                            <img src="assets/images/lighting/lighting-heading.jpg" class="img-fluid" alt="Lighting Project">
+                             <div class="project-title">
+                                <h5>Lighting Design</h5>
+                                <span class="project-label">AutoCAD</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="project-pages/healthcare.html" class="project-item">
+                            <img src="assets/images/healthcare/healthcare-heading.jpg" class="img-fluid" alt="Healthcare Project">
+                             <div class="project-title">
+                                <h5>Healthcare</h5>
+                                <span class="project-label">Revit</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="project-pages/renders.html" class="project-item">
+                            <img src="assets/images/renders/office1-1.jpg" class="img-fluid" alt="Renders Project">
+                             <div class="project-title">
+                                <h5>Renders</h5>
+                                <span class="project-label">3DS Max</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="project-pages/materials.html" class="project-item">
+                            <img src="assets/images/materials/heading.png" class="img-fluid" alt="Materials Project">
+                             <div class="project-title">
+                                <h5>Materials</h5>
+                                <span class="project-label">AutoCAD</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="project-pages/codes.html" class="project-item">
+                            <img src="assets/images/codes/codes_heading.jpg" class="img-fluid" alt="Codes Project">
+                             <div class="project-title">
+                                <h5>Codes</h5>
+                                <span class="project-label">Code Compliance</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="project-pages/chair.html" class="project-item">
+                            <img src="assets/images/chair-project/historic-chair.jpg" class="img-fluid" alt="Chair Project">
+                            <div class="project-title">
+                                <h5>Historic Chair</h5>
+                                <span class="project-label">Furniture Design</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="project-pages/moonlight.html" class="project-item">
+                            <img src="assets/images/moonlight/moonlight-heading.jpg" class="img-fluid" alt="Moonlight Project">
+                             <div class="project-title">
+                                <h5>Moonlight Restaurant</h5>
+                                <span class="project-label">Sketchup</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Divider -->
+                <div class="row" id="artwork">
+                    <div class="col-12 text-center py-4">
+                        <h3 class="section-heading">Water Color Artwork</h3>
+                        <hr class="mx-auto">
+                    </div>
+                </div>
+                <!-- Second Row -->
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="artwork-pages/details.html" class="project-item">
+                            <img src="assets/images/details/luzy-on-the-wall.jpg" class="img-fluid" alt="Luzy on the Wall">
+                            <div class="project-title">
+                                <h5>Details</h5>
+                                <span class="project-label">Artwork</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="artwork-pages/chairs.html" class="project-item">
+                            <img src="assets/images/chairs/multiple.jpg" class="img-fluid" alt="Water Color Chairs">
+                            <div class="project-title">
+                                <h5>Water Color Chairs</h5>
+                                <span class="project-label">Artwork</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="artwork-pages/interiors.html" class="project-item">
+                            <img src="assets/images/interiors/villa-staircase.jpg" class="img-fluid" alt="Villa Staircase">
+                            <div class="project-title">
+                                <h5>Interiors</h5>
+                                <span class="project-label">Artwork</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="artwork-pages/altoid-boxes.html" class="project-item">
+                            <img src="assets/images/altoid-boxes/too-hotel2.jpg" class="img-fluid" alt="Project 7">
+                            <div class="project-title">
+                                <h5>Altoid Boxes</h5>
+                                <span class="project-label">Artwork</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <a href="artwork-pages/exteriors.html" class="project-item">
+                            <img src="assets/images/exteriors/museum.jpg" class="img-fluid" alt="Museum">
+                            <div class="project-title">
+                                <h5>Exteriors</h5>
+                                <span class="project-label">Artwork</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <!-- Quick Navigation -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html#contact-info">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Main Footer Content -->
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-3">
+                    <h5>Emma Jackson</h5>
+                    <div class="footer-contact">
+                        <p class="mb-1">
+                            <a href="mailto:emmagracejackson03@gmail.com">emmagracejackson03@gmail.com</a>
+                        </p>
+                        <p class="mb-0">
+                            <a href="tel:+13853751090">(385) 375-1090</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="row mt-4 pt-3" style="border-top: 1px solid #dee2e6;">
+                <div class="col-12">
+                    <p class="footer-copyright text-center mb-0">&copy; 2025 Emma Jackson Design. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Parallax Effect Script -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const heroSection = document.getElementById('hero-section');
+            const heroText = document.getElementById('hero-text');
+            
+            if (heroSection && heroText) {
+                const heroHeight = heroSection.offsetHeight;
+                const scrollPercent = scrolled / heroHeight;
+                
+                // Only apply effect while hero section is visible
+                if (scrolled < heroHeight) {
+                    // Move text down slightly as user scrolls
+                    const textOffset = scrolled * 0.3; // Adjust multiplier for more/less movement
+                    heroText.style.transform = `translate(-50%, calc(-50% + ${textOffset}px))`;
+                }
+            }
+        });
+        
+        // Optional: Add a fade effect as well
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const heroSection = document.getElementById('hero-section');
+            const heroText = document.getElementById('hero-text');
+            
+            if (heroSection && heroText) {
+                const heroHeight = heroSection.offsetHeight;
+                const fadeStart = heroHeight * 0.3;
+                const fadeEnd = heroHeight * 0.8;
+                
+                if (scrolled < fadeStart) {
+                    heroText.style.opacity = '1';
+                } else if (scrolled > fadeEnd) {
+                    heroText.style.opacity = '0';
+                } else {
+                    const fadeProgress = (scrolled - fadeStart) / (fadeEnd - fadeStart);
+                    heroText.style.opacity = 1 - fadeProgress;
+                }
+            }
+        });
+    </script>
+</body>
+</html>
