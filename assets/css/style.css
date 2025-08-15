@@ -361,6 +361,55 @@ body {
     color: #ff6600 !important;
 }
 
+/* Mobile brand name adjustments - CSS only solution */
+@media (max-width: 1400px) {
+    .navbar-brand a {
+        font-size: 1.6rem !important;
+        line-height: 1.1 !important;
+        letter-spacing: 1px !important;
+        position: relative;
+        display: block;
+    }
+    
+    /* Hide original text and show multi-line version */
+    .navbar-brand a {
+        color: transparent !important;
+    }
+    
+    .navbar-brand a::before {
+        content: "EMMA GRACE\A JACKSON";
+        color: black;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: pre-line;
+        text-align: center;
+        width: 100%;
+        line-height: 1.2;
+    }
+    
+    .navbar-brand a:hover::before {
+        color: #ff6600;
+    }
+    
+    /* Ensure navbar has enough height for multi-line brand */
+    .navbar {
+        padding: 2.5rem 0 !important;
+    }
+}
+
+/* Additional spacing for very small screens */
+@media (max-width: 768px) {
+    .navbar-brand a {
+        font-size: 1.4rem !important;
+    }
+    
+    .navbar {
+        padding: 2rem 0 !important;
+    }
+}
+
 /* Improved navbar toggle button */
 .navbar-toggler {
     border: 1px solid #ff6600;
@@ -555,6 +604,14 @@ footer .footer-logo:hover {
 
 /* Mobile Navigation Improvements */
 @media (max-width: 991px) {
+    /* Keep the navbar brand stable when dropdown opens */
+    .navbar-brand {
+        position: fixed !important;
+        top: 1rem !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+    
     .navbar-collapse {
         background-color: rgba(248, 249, 250, 0.98);
         backdrop-filter: blur(10px);
@@ -562,6 +619,8 @@ footer .footer-logo:hover {
         margin-top: 1rem;
         padding: 1rem;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 3;
     }
     
     .navbar-nav .nav-link {
