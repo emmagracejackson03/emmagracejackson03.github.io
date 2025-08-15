@@ -606,8 +606,9 @@ footer .footer-logo:hover {
 @media (max-width: 991px) {
     /* Keep the navbar brand stable when dropdown opens */
     .navbar-brand {
-        position: fixed !important;
-        top: 1rem !important;
+        /* Allow brand to scroll with the page instead of staying pinned */
+        position: absolute !important;
+        top: -1rem !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
     }
