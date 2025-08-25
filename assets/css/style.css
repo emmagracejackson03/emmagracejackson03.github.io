@@ -97,7 +97,7 @@ body {
 
 /* Employment Banner Styles */
 .employment-banner {
-    background: linear-gradient(135deg, #522a92 0%, #166329 100%);
+    background: linear-gradient(135deg, #aa5f41 0%, #aa5f41 100%);
     color: white;
 }
 
@@ -132,7 +132,7 @@ body {
 .employment-actions .btn-primary {
     background-color: white;
     border-color: white;
-    color: #166329;
+    color: #aa5f41;
 }
 
 .employment-actions .btn-primary:hover {
@@ -148,7 +148,7 @@ body {
 
 .employment-actions .btn-outline-primary:hover {
     background-color: white;
-    color: #166329;
+    color: #aa5f41;
     transform: translateY(-2px);
 }
 
@@ -174,7 +174,7 @@ body {
 
 .value-icon {
     font-size: 3rem;
-    color: #ff6600;
+    color: #aa5f41;
     margin-bottom: 1rem;
 }
 
@@ -280,7 +280,7 @@ body {
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #ff6600;
+    color: #aa5f41;
     filter: grayscale(80%);
     transition: filter 0.5s ease-in-out;
 }
@@ -309,7 +309,7 @@ body {
 
 /* Orange hover effect for navigation links */
 .navbar-nav .nav-link:hover {
-    color: #ff6600 !important;
+    color: #aa5f41 !important;
 }
 
 /* Active page indicator - small orange underline */
@@ -325,13 +325,13 @@ body {
     transform: translateX(-50%);
     width: 30px;
     height: 2px;
-    background-color: #ff6600;
+    background-color: #aa5f41;
     border-radius: 1px;
 }
 
 /* Hover effect maintains the underline for active links */
 .navbar-nav .nav-link.active:hover {
-    color: #ff6600 !important;
+    color: #aa5f41 !important;
 }
 
 /* Smooth animated underline effect on hover for non-active links */
@@ -343,7 +343,7 @@ body {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: #ff6600;
+    background-color: #aa5f41;
     border-radius: 1px;
     transition: width 0.3s ease;
 }
@@ -358,7 +358,7 @@ body {
 }
 
 .navbar-brand:hover {
-    color: #ff6600 !important;
+    color: #aa5f41 !important;
 }
 
 /* Mobile brand name adjustments - CSS only solution */
@@ -390,7 +390,7 @@ body {
     }
     
     .navbar-brand a:hover::before {
-        color: #ff6600;
+        color: #aa5f41;
     }
     
     /* Ensure navbar has enough height for multi-line brand */
@@ -412,13 +412,13 @@ body {
 
 /* Improved navbar toggle button */
 .navbar-toggler {
-    border: 1px solid #ff6600;
+    border: 1px solid #aa5f41;
     padding: 0.5rem 0.75rem;
 }
 
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
-    border-color: #ff6600;
+    border-color: #aa5f41;
 }
 
 .navbar-toggler-icon {
@@ -488,7 +488,7 @@ body {
 
 hr {
     width: 100px;
-    border: 1px solid #ff6600;
+    border: 1px solid #aa5f41;
     opacity: 1;
 }
 
@@ -508,9 +508,9 @@ hr {
 }
 
 .back-button:hover {
-    color: #ff6600;
+    color: #aa5f41;
     background-color: #fff;
-    border-color: #ff6600;
+    border-color: #aa5f41;
     text-decoration: none;
     transform: translateX(-2px);
 }
@@ -524,7 +524,7 @@ hr {
 /* Footer Styles */
 footer {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-top: 3px solid #ff6600;
+    border-top: 3px solid #aa5f41;
     margin-top: auto;
 }
 
@@ -542,7 +542,7 @@ footer .footer-contact a {
 }
 
 footer .footer-contact a:hover {
-    color: #ff6600;
+    color: #aa5f41;
 }
 
 footer .footer-copyright {
@@ -566,7 +566,7 @@ footer .footer-social a {
 }
 
 footer .footer-social a:hover {
-    color: #ff6600;
+    color: #aa5f41;
     transform: translateY(-2px);
 }
 
@@ -591,7 +591,7 @@ footer .footer-nav li a {
 }
 
 footer .footer-nav li a:hover {
-    color: #ff6600;
+    color: #aa5f41;
 }
 
 footer .footer-logo {
@@ -642,7 +642,7 @@ footer .footer-logo:hover {
     
     .navbar-nav .nav-link.active {
         background-color: rgba(255, 102, 0, 0.15);
-        color: #ff6600 !important;
+        color: #aa5f41 !important;
     }
     
     .navbar-nav .nav-link:not(.active)::before {
@@ -710,7 +710,7 @@ footer .footer-logo:hover {
 .hero-divider {
     width: 100px;
     height: 3px;
-    background-color: #ff6600;
+    background-color: #aa5f41;
     margin: 0 auto 1.5rem;
     border-radius: 2px;
 }
@@ -788,7 +788,7 @@ footer .footer-logo:hover {
     left: 0;
     width: 50px;
     height: 2px;
-    background-color: #ff6600;
+    background-color: #aa5f41;
     border-radius: 1px;
 }
 
@@ -821,8 +821,8 @@ footer .footer-logo:hover {
 .philosophy-quote {
     font-size: 1.4rem;
     font-style: italic;
-    color: #ff6600;
-    border-left: 4px solid #ff6600;
+    color: #aa5f41;
+    border-left: 4px solid #aa5f41;
     padding-left: 2rem;
     margin: 2rem 0;
     background: rgba(255, 102, 0, 0.05);
@@ -837,7 +837,7 @@ footer .footer-logo:hover {
     top: -10px;
     left: 1rem;
     font-size: 3rem;
-    color: #ff6600;
+    color: #aa5f41;
     opacity: 0.3;
 }
 
@@ -862,7 +862,7 @@ footer .footer-logo:hover {
 }
 
 .skill-header {
-    border-bottom: 2px solid #ff6600;
+    border-bottom: 2px solid #aa5f41;
     padding-bottom: 1rem;
     margin-bottom: 1.5rem;
 }
@@ -894,7 +894,7 @@ footer .footer-logo:hover {
 }
 
 .skill-item:hover {
-    color: #ff6600;
+    color: #aa5f41;
     padding-left: 10px;
 }
 
@@ -911,7 +911,7 @@ footer .footer-logo:hover {
 }
 
 .skill-badge {
-    background-color: #ff6600;
+    background-color: #aa5f41;
     color: white;
     padding: 0.25rem 0.75rem;
     border-radius: 20px;
@@ -944,7 +944,7 @@ footer .footer-logo:hover {
     left: 0;
     right: 0;
     height: 5px;
-    background: linear-gradient(90deg, #ff6600 0%, #ff8533 100%);
+    background: linear-gradient(90deg, #aa5f41 0%, #aa5f41 100%);
 }
 
 .contact-intro {
@@ -974,7 +974,7 @@ footer .footer-logo:hover {
 
 .contact-icon {
     font-size: 1.5rem;
-    color: #ff6600;
+    color: #aa5f41;
     width: 30px;
     text-align: center;
 }
@@ -988,7 +988,7 @@ footer .footer-logo:hover {
 }
 
 .contact-link:hover {
-    color: #ff6600;
+    color: #aa5f41;
     text-decoration: none;
 }
 
