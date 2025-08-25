@@ -97,7 +97,7 @@ body {
 
 /* Employment Banner Styles */
 .employment-banner {
-    background: linear-gradient(135deg, #e55a00 0%, #cc4d00 100%);
+    background: linear-gradient(135deg, #522a92 0%, #166329 100%);
     color: white;
 }
 
@@ -132,7 +132,7 @@ body {
 .employment-actions .btn-primary {
     background-color: white;
     border-color: white;
-    color: #ff6600;
+    color: #166329;
 }
 
 .employment-actions .btn-primary:hover {
@@ -148,7 +148,7 @@ body {
 
 .employment-actions .btn-outline-primary:hover {
     background-color: white;
-    color: #ff6600;
+    color: #166329;
     transform: translateY(-2px);
 }
 
