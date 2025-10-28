@@ -521,6 +521,71 @@ hr {
     font-size: 1.1rem;
 }
 
+/* Project Navigation Buttons */
+.project-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+}
+
+.project-nav-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #aa5f41 0%, #aa5f41 100%);
+    border: 2px solid #aa5f41;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 8px rgba(170, 95, 65, 0.2);
+}
+
+.project-nav-button:hover {
+    background: linear-gradient(135deg, #8a4f31 0%, #8a4f31 100%);
+    border-color: #8a4f31;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(170, 95, 65, 0.3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.project-nav-button.prev::before {
+    content: "←";
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+.project-nav-button.next::after {
+    content: "→";
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+
+.project-nav-button.next {
+    margin-left: auto;
+}
+
+/* Responsive adjustments for project navigation */
+@media (max-width: 768px) {
+    .project-navigation {
+        flex-direction: column;
+    }
+    
+    .project-nav-button {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .project-nav-button.next {
+        margin-left: 0;
+    }
+}
+
 /* Footer Styles */
 footer {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
