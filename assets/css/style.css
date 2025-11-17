@@ -631,6 +631,53 @@ hr {
     }
 }
 
+/* Inline navigation and title layout */
+.page-title-nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.page-title-inline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.nav-arrow {
+    font-size: 1.8rem;
+    color: #aa5f41;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+}
+
+.nav-arrow:hover {
+    color: #8a4f31;
+    transform: scale(1.2);
+}
+
+/* Responsive adjustments for inline navigation */
+@media (max-width: 768px) {
+    .page-title-nav-section {
+        gap: 1rem;
+    }
+    
+    .page-title-inline {
+        font-size: 1.2rem;
+    }
+    
+    .nav-arrow {
+        font-size: 1.5rem;
+    }
+}
+
 /* Footer Styles */
 footer {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
